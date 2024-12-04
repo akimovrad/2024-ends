@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zen+Kaku+Gothic+New&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 64px;
+}
+
+
+.header .logo{
+    display: flex;
+    gap: 16px;
+    width: 190px;
+    align-items: center;
+    color: #fff;
+}
+
+.header .link{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    font-size: 16px;
+    line-height: 0.40rem;
+    color: rgba(255, 255, 255, 0.5) ;
+
+}
+
+.link p{
+    cursor: pointer;
+    transition: 300ms all;
+}
+
+.link p:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+.container .date{
+    margin: 160px auto;
+    text-align: center;
+}
+
+.date .timer{
+    display: flex;
+    margin: 0 auto;
+    width: 438px;
+    justify-content: space-between;
+}
+
+.date h1{
+    font-size: 80px;
+    background: -webkit-linear-gradient(#ffffff, #777777);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+
+}
+
+.date span{
+    font-size: 60px;
+}
+
+.timer h2{
+    font-size: 48px;
+    color: #fff;
+}
+
+.timer p{
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.4);
+}
